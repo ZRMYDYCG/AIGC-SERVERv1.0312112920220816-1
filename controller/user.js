@@ -5,11 +5,12 @@
  * @LastEditTime: 2024-08
  * @Description: 控制器 - 用户
  */
+const Validate = require('@/validate/index')
 class UserController {
     // 用户登录
     async Login(ctx) {
         const { name, age } = ctx.request.body
-        console.log(name, age)
+        await Validate.nullCheck(name, '请填写姓名', "name")
     }
 }
 

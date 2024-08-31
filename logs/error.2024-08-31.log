@@ -1,0 +1,58 @@
+[2024-08-31T22:27:45.651] [ERROR] error - Error: 422: 请填写姓名
+    at Validate.nullCheck (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\validate\index.js:6:19)
+    at Login (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\controller\user.js:13:24)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at errorHandler (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\config\errorhandler.js:11:15)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+[2024-08-31T22:28:09.625] [ERROR] error - Error: 400: undefined 必须为字符串类型
+    at Validate.nullCheck (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\validate\index.js:6:19)
+    at Login (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\controller\user.js:13:24)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at errorHandler (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\config\errorhandler.js:11:15)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+[2024-08-31T22:30:46.830] [ERROR] error - Error: 400: name 必须为字符串类型
+    at Validate.nullCheck (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\validate\index.js:6:19)
+    at Login (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\controller\user.js:13:24)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at errorHandler (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\config\errorhandler.js:11:15)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+[2024-08-31T22:30:53.108] [ERROR] error - Error: 422: 请填写姓名
+    at Validate.nullCheck (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\validate\index.js:6:19)
+    at Login (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\controller\user.js:13:24)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at errorHandler (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\config\errorhandler.js:11:15)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+[2024-08-31T22:30:55.864] [ERROR] error - Error: 422: 请填写姓名
+    at Validate.nullCheck (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\validate\index.js:6:19)
+    at Login (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\controller\user.js:13:24)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\@koa+router@13.0.0\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at errorHandler (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\config\errorhandler.js:11:15)
+    at dispatch (C:\Users\86151\Desktop\AIGC-SERVERv1.0312112920220816-1\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+[2024-08-31T22:34:33.351] [ERROR] error - { msg: 'name 必须为字符串类型', code: 400 }
+[2024-08-31T22:34:40.197] [ERROR] error - { msg: '请填写姓名', code: 422 }
+[2024-08-31T22:34:45.676] [ERROR] error - { msg: 'name 必须为字符串类型', code: 400 }
