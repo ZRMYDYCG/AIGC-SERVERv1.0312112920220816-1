@@ -56,3 +56,4 @@
 [2024-08-31T22:34:33.351] [ERROR] error - { msg: 'name 必须为字符串类型', code: 400 }
 [2024-08-31T22:34:40.197] [ERROR] error - { msg: '请填写姓名', code: 422 }
 [2024-08-31T22:34:45.676] [ERROR] error - { msg: 'name 必须为字符串类型', code: 400 }
+[2024-08-31T22:40:15.091] [ERROR] error - { msg: 'name 不能为空', code: 400 }
