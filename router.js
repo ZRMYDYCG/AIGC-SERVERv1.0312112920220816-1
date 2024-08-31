@@ -7,11 +7,11 @@
  */
 const Router = require('@koa/router')
 const router = new Router()
-const user = require('./controller/user')
+const user = require('@/controller/user')
 
 /**
  * @desc 用户相关接口
  * */ 
-router.post('/wxlogin', user.wxLogin)
+router.post('/login', user.Login)
 
 module.exports = router
