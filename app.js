@@ -6,7 +6,7 @@
  * @Description: App入口文件
  */
 // 引入Koa
-const Koa = require('koa')
+const koa = require('koa')
 const app = new Koa()
 
 // 设置路径别名
