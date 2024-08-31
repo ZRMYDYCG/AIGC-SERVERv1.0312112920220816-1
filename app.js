@@ -5,7 +5,7 @@
  * @LastEditTime: 2024-08
  * @Description: App入口文件
  */
-// 引入koa
+// 引入Koa
 const Koa = require('koa')
 const app = new Koa()
 
