@@ -5,8 +5,8 @@
  * @LastEditTime: 2024-08
  * @Description: App入口文件
  */
-// 引入koa
-const Koa = require('koa')
+// 引入Koa
+const koa = require('koa')
 const app = new Koa()
 
 // 设置路径别名
@@ -42,14 +42,4 @@ app.listen(3000, () => {
   console.log('Server is running on port 3000 🚀')
 })
 
-// 我在测试bug修复
-
-// 我在测试bug修复2
-
-// 我在测试修复bug3
-
-// 我在测试bug修复4
-
-// 我在测试bug修复5
-
-// wow, 我在测试bug修复6
+//修复nodemon报错
