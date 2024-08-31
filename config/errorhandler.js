@@ -14,3 +14,5 @@ const errorHandler = async (ctx, next) => {
         ctx.send(null, status, "服务器端异常错误", error)
     }
 }
+
+module.exports = errorHandler
