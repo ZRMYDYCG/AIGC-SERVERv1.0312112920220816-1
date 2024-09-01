@@ -41,9 +41,3 @@ app.use(router.routes()).use(router.allowedMethods())
 app.listen(3000, () => {
   console.log('Server is running on port 3000 🚀')
 })
-
-//修复nodemon报错
-
-// 解决nodemon报错：Error: listen EADDRINUSE: address already in use :::3000
-
-// 呜呜呜
