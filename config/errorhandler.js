@@ -16,8 +16,8 @@ const errorHandler = async (ctx, next) => {
             const errorVal = error || null
             ctx.send(null, code, msg, errorVal)
         } else {
-            const error = errprData.message || "异常错误,请查看服务器端日志"
-            const status = errprData.status || 500
+            const error = errorData.message || "异常错误,请查看服务器端日志"
+            const status = errorData.status || 500
             ctx.send(null, status, "服务器端异常错误", error)
         }
     }

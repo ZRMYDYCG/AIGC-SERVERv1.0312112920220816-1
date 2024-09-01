@@ -18,5 +18,9 @@ module.exports = {
         appid: 'wx6e0ffdfac5c44210',
         secret: '8e6836d71dae5343917a5f9eade2ad5f',
         code2session: 'https://api.weixin.qq.com/sns/jscode2session',
+    },
+    // 智普云API相关配置
+    zhipu: {
+        apiKey: '9d700a70f0208b56cb0a0664660af421.gApGtUezofH3mLJ7'
     }
 }
