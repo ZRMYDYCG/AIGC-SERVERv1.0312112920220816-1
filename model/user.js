@@ -7,6 +7,7 @@
  */
 const db = require('@/config/db')
 const { DataTypes } = require('sequelize')
+const dayjs = require('dayjs')
 
 // 用户表
 const User =db.define('user-info', {
@@ -25,7 +26,13 @@ const User =db.define('user-info', {
         type: DataTypes.STRING,
         allowNull: false,
         primaryKey: true, // 设置为主键, 保证唯一性, 不能重复
-    }
+    },
+    // 创建时间
+    createTime: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        defaultValue: dayjs().format('YYYY-MM-DD HH:mm:ss'), // 默认当前时间
+    },
 })
 
 module.exports = User

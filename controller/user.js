@@ -13,7 +13,7 @@ class UserController {
         const { name, age } = ctx.request.body
         await Validate.nullCheck(name, '请填写姓名', "name")
         await Validate.nullCheck(age, '请填写年龄', "age")
-        // await User.create({ nickName: '三勺', avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', openid: 'sffsdfsd' })
+        await User.create({ nickName: '三勺', avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', openid: 'sffsdfsd' })
         // const res = await User.findOne({ where: { openid: "sffsdfsd" } })
         // console.log(res)
     }

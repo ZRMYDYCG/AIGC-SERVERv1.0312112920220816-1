@@ -14,6 +14,9 @@ importers:
       '@koa/router':
         specifier: ^13.0.0
         version: 13.0.0
+      dayjs:
+        specifier: ^1.11.13
+        version: 1.11.13
       koa:
         specifier: ^2.15.3
         version: 2.15.3
@@ -110,6 +113,9 @@ packages:
   date-format@4.0.14:
     resolution: {integrity: sha512-39BOQLs9ZjKh0/patS9nrT8wc3ioX3/eA/zgbKNopnF2wCqJEoxywwwElATYvRsXdnOxA/OQeQoFZ3rFjVajhg==}
     engines: {node: '>=4.0'}
+
+  dayjs@1.11.13:
+    resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
 
   debug@4.3.6:
     resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
@@ -589,6 +595,8 @@ snapshots:
   core-util-is@1.0.3: {}
 
   date-format@4.0.14: {}
+
+  dayjs@1.11.13: {}
 
   debug@4.3.6:
     dependencies:
