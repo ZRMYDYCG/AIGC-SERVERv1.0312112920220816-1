@@ -2,12 +2,12 @@
  * @Author: ZRMYDYCG
  * @Date: 2024-08-20
  * @LastEditors: ZRMYDYCG
- * @LastEditTime: 2024-08
+ * @LastEditTime: 2024-09
  * @Description: App入口文件
  */
 // 引入Koa
 const koa = require('koa')
-const app = new Koa()
+const app = new koa()
 
 // 设置路径别名
 const { addAliases } = require('module-alias')
