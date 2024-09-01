@@ -3,19 +3,25 @@
  * @Date: 2024-08
  * @LastEditors: ZRMYDYCG
  * @LastEditTime: 2024-09
- * @Description: 控制器 - 用户
+ * @Description: 控制器（只做参数接收然后返回结果） - 用户
  */
 const Validate = require('@/validate/index')
 const User = require('@/model/user')
+const UserService = require('@/service/user')
 class UserController {
     // 用户登录
     async Login(ctx) {
-        const { name, age } = ctx.request.body
-        await Validate.nullCheck(name, '请填写姓名', "name")
-        await Validate.nullCheck(age, '请填写年龄', "age")
-        await User.create({ nickName: '三勺', avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', openid: 'sffsdfsd' })
-        // const res = await User.findOne({ where: { openid: "sffsdfsd" } })
-        // console.log(res)
+        const { nickName, avatar, code } = ctx.request.body
+        await Validate.nullCheck(nickName, '请输入昵称', 'nickName')
+        await Validate.nullCheck(avatar, '请上传头像', 'avatar')
+        await Validate.nullCheck(code, '缺少code', 'code')
+        // 获取 oppenid
+        const openid = await new UserService().getOpenid(code)
+        // 查询数据库是否已经存在该用户
+        const userInfo = await User.findOne({ where: { openid } })
+        if(!userInfo) {
+            await User.create({ nickName, avatar, openid })
+        }
     }
 }
 

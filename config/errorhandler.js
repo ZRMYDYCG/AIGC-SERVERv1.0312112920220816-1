@@ -2,7 +2,7 @@
  * @Author: ZRMYDYCG
  * @Date: 2024-08
  * @LastEditors: ZRMYDYCG
- * @LastEditTime: 2024-08
+ * @LastEditTime: 2024-09
  * @Description: 捕获错误的中间件（全局中间件）
  */
 const looger = require('@/loggerMiddleware')
@@ -12,8 +12,9 @@ const errorHandler = async (ctx, next) => {
     } catch (errorData) {
         looger.error(errorData)  // 记录错误日志
         if(errorData.code) {
-            const { code, msg } = errorData
-            ctx.send(null, code, msg)
+            const { code, msg, error } = errorData
+            const errorVal = error || null
+            ctx.send(null, code, msg, errorVal)
         } else {
             const error = errprData.message || "异常错误,请查看服务器端日志"
             const status = errprData.status || 500
